@@ -110,7 +110,6 @@
                 snackeY[i] = snackeY[i + 1];
             }
             //Every move, the snake head increases by one grid, keyCode matches keyboard
-            switch (keyCode) {
                 case 37://Left
                     snackeX[snackeX.length - 1]--;
                     break;
