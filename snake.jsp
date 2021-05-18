@@ -1,6 +1,12 @@
-kjfhbsdklfhsfkjlshkjsf
-        #map{
-            width: 400px;
-            height: 400px;
-            border: 1px solid 
-        .divMap{
+<html>
+   <head>
+      <title>Setting HTTP Status Code</title>
+   </head>
+   
+   <body>
+      <%
+         // Set error code and reason.
+         response.sendError(407, "Need authentication!!!" );
+      %>
+   </body>
+</html>
